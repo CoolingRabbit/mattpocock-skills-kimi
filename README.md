@@ -39,16 +39,11 @@
 
 ## 快速开始（Kimi Work & Kimi Claw）
 
-最简方式：告诉你的 AI 安装。
+最简方式：通过自然语言告诉你的AI安装本仓库的Skill。https://github.com/CoolingRabbit/mattpocock-skills-kimi
 
-**Kimi Work**：
-1. 在 Kimi Work 中打开本仓库所在目录
-2. 在对话中告诉 Kimi：
-   > "帮我安装这个仓库 `skills/` 目录下的所有 skill"
-
-**Kimi Claw / OpenClaw**：
+**Kimi Work / Kimi Claw / OpenClaw**：
 1. 在对话中告诉 Kimi Claw：
-   > "帮我安装 GitHub 仓库 `CoolingRabbit/mattpocock-skills-kimi` 的 skill"
+   > "帮我安装 https://github.com/CoolingRabbit/mattpocock-skills-kimi 的 skill"
 
 AI 会自动读取仓库、安装 skill 到对应目录。安装完成后，skill 会在合适场景自动触发。
 
