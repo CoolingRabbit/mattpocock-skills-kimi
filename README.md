@@ -27,7 +27,7 @@
 | # | Skill | 状态 | 说明 |
 |---|-------|------|------|
 | 1 | `grilling` | ✅ 已完成 |  relentlessly interview，对齐需求的底层循环 |
-| 2 | `handoff` | ⏳ 待实现 | 跨会话交接，压缩上下文 |
+| 2 | `handoff` | ✅ 已完成 | 跨会话交接，压缩上下文 |
 | 3 | `domain-modeling` | ⏳ 待实现 | 维护项目术语表 `CONTEXT.md` + ADR |
 | 4 | `codebase-design` | ⏳ 待实现 | 深模块设计词汇与原则 |
 | 5 | `tdd` | ⏳ 待实现 | 红绿重构，垂直切片 |
