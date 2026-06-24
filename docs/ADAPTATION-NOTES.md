@@ -62,6 +62,20 @@
 
 ---
 
+## ClawHub 发布
+
+本仓库已上架 [ClawHub](https://clawhub.ai) — OpenClaw 的公共 Skill 注册中心：
+
+- **发布日期**：2026-06-24
+- **ClawHub 页面**：https://clawhub.ai/coolingrabbit/skills/mattpocock-skills-kimi
+- **安装命令**：
+  ```bash
+  clawhub install coolingrabbit/skills/mattpocock-skills-kimi
+  ```
+- **许可证差异**：GitHub 仓库为 MIT（保留 Matt Pocock 版权声明），ClawHub 版本为 MIT-0（平台强制要求）。
+
+---
+
 ## Issue Tracker 抽象层设计
 
 ```
@@ -115,4 +129,5 @@ skill 正文中的工具调用描述尽量通用化，例如：
 
 | 日期 | 版本 | 说明 |
 |------|------|------|
+| 2026-06-24 | v1.0.0 | 8 个 Skill 完成适配，上架 ClawHub |
 | 2026-06-16 | v0.1.0 | 仓库初始化，目录结构创建 |

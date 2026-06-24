@@ -20,6 +20,16 @@
 
 ---
 
+## ClawHub 发布
+
+本仓库已上架 [ClawHub](https://clawhub.ai) — OpenClaw 的公共 Skill 市场：
+
+- **ClawHub 地址**：https://clawhub.ai/coolingrabbit/skills/mattpocock-skills-kimi
+- **安装方式**：
+  ```bash
+  clawhub install coolingrabbit/skills/mattpocock-skills-kimi
+  ```
+
 ## 已适配 Skill 列表
 
 按实施顺序排列，逐步上线：
@@ -83,4 +93,11 @@ git clone https://github.com/CoolingRabbit/mattpocock-skills-kimi.git ~/.opencla
 - 核心方法论、词汇、设计原则全部来自 Matt Pocock 的原创工作
 - 本仓库仅做 Kimi 生态的本地化适配
 
-Licensed under the **MIT License** — 保留 Matt Pocock 版权声明。
+### 双轨许可证
+
+| 渠道 | 许可证 | 说明 |
+|------|--------|------|
+| **GitHub 仓库** | MIT | 保留 Matt Pocock 版权声明，尊重原始作者 |
+| **ClawHub 发布** | MIT-0 | ClawHub 平台强制要求，允许无署名自由使用 |
+
+本仓库源码（GitHub）保持 **MIT License**，以保留原作者版权声明。ClawHub 版本因平台规则限制，采用 **MIT-0**（MIT No Attribution）。两者在功能上完全一致，仅在许可证声明上存在差异。请根据你的安装渠道选择对应的许可证条款。
