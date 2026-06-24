@@ -37,41 +37,42 @@
 
 ---
 
-## 快速开始（Kimi Work）
+## 快速开始（Kimi Work & Kimi Claw）
 
-方式一：通过 AI 安装（推荐）
+最简方式：告诉你的 AI 安装。
+
+**Kimi Work**：
 1. 在 Kimi Work 中打开本仓库所在目录
-2. 在对话中告诉 Kimi："帮我安装本仓库 `skills/` 目录下的所有 skill"
-3. Kimi 会自动通过 `SkillManage` 工具完成安装
+2. 在对话中告诉 Kimi：
+   > "帮我安装这个仓库 `skills/` 目录下的所有 skill"
 
-方式二：通过 `SkillManage` 命令安装（手动）
-1. 在 Kimi Work 中打开本仓库
-2. 运行 `SkillManage` 工具，逐个创建 `skills/` 下的 skill
+**Kimi Claw / OpenClaw**：
+1. 在对话中告诉 Kimi Claw：
+   > "帮我安装 GitHub 仓库 `CoolingRabbit/mattpocock-skills-kimi` 的 skill"
 
-安装完成后，开始编码，skill 会在合适场景自动触发。
+AI 会自动读取仓库、安装 skill 到对应目录。安装完成后，skill 会在合适场景自动触发。
 
-## 快速开始（Kimi Claw / OpenClaw）
+---
 
-方式一：通用安装器（推荐）
+### 手动安装方式（备选）
+
+如果 AI 安装失败，可使用以下手动方式：
+
+**Kimi Work**
+```bash
+# 通过 SkillManage 工具逐个安装
+# 或运行 Kimi 的 skill 安装命令
+```
+
+**OpenClaw（通用安装器）**
 ```bash
 npx skills add CoolingRabbit/mattpocock-skills-kimi
 ```
 
-方式二：手动克隆到 skill 目录
+**OpenClaw（手动克隆）**
 ```bash
-# OpenClaw
 git clone https://github.com/CoolingRabbit/mattpocock-skills-kimi.git ~/.openclaw/skills/mattpocock-skills-kimi
-
-# 或 OpenClaw workspace 路径
-git clone https://github.com/CoolingRabbit/mattpocock-skills-kimi.git ~/.openclaw/workspace/skills/mattpocock-skills-kimi
 ```
-
-方式三：通过 ClawHub 安装（如果已发布）
-```bash
-npx clawhub@latest install mattpocock-skills-kimi
-```
-
-工具调用描述已适配为通用指令，兼容 OpenClaw 的执行环境。
 
 ---
 
