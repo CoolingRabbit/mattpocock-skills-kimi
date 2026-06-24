@@ -28,12 +28,12 @@
 |---|-------|------|------|
 | 1 | `grilling` | ✅ 已完成 |  relentlessly interview，对齐需求的底层循环 |
 | 2 | `handoff` | ✅ 已完成 | 跨会话交接，压缩上下文 |
-| 3 | `domain-modeling` | ⏳ 待实现 | 维护项目术语表 `CONTEXT.md` + ADR |
-| 4 | `codebase-design` | ⏳ 待实现 | 深模块设计词汇与原则 |
-| 5 | `tdd` | ⏳ 待实现 | 红绿重构，垂直切片 |
-| 6 | `diagnosing-bugs` | ⏳ 待实现 | 六阶段 Bug 诊断 |
-| 7 | `grill-with-docs` | ⏳ 待实现 | 有代码库时的对齐 + 文档维护 |
-| 8 | `to-prd` | ⏳ 待实现 | 合成 PRD + Issue Tracker 发布 |
+| 3 | `domain-modeling` | ✅ 已完成 | 维护项目术语表 `CONTEXT.md` + ADR |
+| 4 | `codebase-design` | ✅ 已完成 | 深模块设计词汇与原则 |
+| 5 | `tdd` | ✅ 已完成 | 红绿重构，垂直切片 |
+| 6 | `diagnosing-bugs` | ✅ 已完成 | 六阶段 Bug 诊断 |
+| 7 | `grill-with-docs` | ✅ 已完成 | 有代码库时的对齐 + 文档维护 |
+| 8 | `to-prd` | ✅ 已完成 | 合成 PRD + Issue Tracker 发布 |
 
 ---
 
